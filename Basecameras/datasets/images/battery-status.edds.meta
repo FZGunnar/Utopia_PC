@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{39E8734AE8730203}WORKDRIVE/BaseCameras/datasets/images/battery-status.edds"
+ Author "thedmitri"
+ ChangeDate 1402842920
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "battery-status.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{C9DA930F11C12CA5}WORKDRIVE/BaseCameras/datasets/images/no-battery.edds"
+ Author "thedmitri"
+ ChangeDate 260419368
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "no-battery.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

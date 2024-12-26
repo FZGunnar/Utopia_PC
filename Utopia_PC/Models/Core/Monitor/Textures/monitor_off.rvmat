@@ -1,0 +1,53 @@
+ambient[]={0,0,0,0};
+diffuse[]={0,0,0,0};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,1};
+specular[]={0,0,0,0};
+specularPower=320;
+PixelShaderID="Super";
+VertexShaderID="Super";
+class Stage0
+{
+	texture="Utopia_PC\Models\Core\Monitor\Textures\monitordesktop_co.paa";
+	texGen="0";
+};
+class Stage1
+{
+	texture="#(argb,8,8,3)color(0.5,0.5,1,1,NOHQ)";
+	texGen="1";
+};
+class Stage2
+{
+	texture="#(argb,8,8,3)color(0.5,0.5,0.5,1,DT)";
+	texGen="2";
+};
+class Stage3
+{
+	texture="#(argb,8,8,3)color(0,0,0,0,MC)";
+	texGen="3";
+};
+class Stage4
+{
+	texture="#(argb,8,8,3)color(1,1,1,1,AS)";
+	texGen="4";
+};
+class Stage5
+{
+	texture="#(argb,8,8,3)color(0.5,0.5,1,1,SMDI)";
+	texGen="5";
+};
+class Stage6
+{
+	texture="#(ai,64,64,1)fresnel(1.37,1.23)";
+	texGen="6";
+};
+class Stage7
+{
+	texture="dz\data\data\env_land_co.paa";
+	texGen="7";
+};
+class Stage8
+{
+	texture="Utopia_PC\Models\Core\Monitor\Textures\monitordesktop_co.paa";
+	texGen="0";
+};

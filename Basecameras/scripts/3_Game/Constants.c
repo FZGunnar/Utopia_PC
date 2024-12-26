@@ -1,0 +1,9 @@
+const string BASE_CAMERA_ROOT_FOLDER = "$profile:BaseCamera\\";
+const string BASE_CAMERA_CONFIG_FOLDER = BASE_CAMERA_ROOT_FOLDER + "Config\\";
+const string BASE_CAMERA_CONFIG_FILE = BASE_CAMERA_CONFIG_FOLDER + "BaseCameraSettings.json";
+
+const string BASE_CAMERA_LOG_FOLDER = BASE_CAMERA_ROOT_FOLDER + "Logging\\";
+const string BASE_CAMERA_LOGGER_CONFIG_DIR = BASE_CAMERA_LOG_FOLDER + "Config\\";
+const string BASE_CAMERA_LOGGER_CONFIG_FILE = BASE_CAMERA_LOGGER_CONFIG_DIR + "LoggingSettings.json";
+const string BASE_CAMERA_LOGGER_LOG_DIR = BASE_CAMERA_LOG_FOLDER + "Logs\\";
+const string BASE_CAMERA_LOGGER_LOG_FILE = BASE_CAMERA_LOGGER_LOG_DIR + "BaseCameraSystem_%1.log";

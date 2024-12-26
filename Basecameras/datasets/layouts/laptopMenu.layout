@@ -1,0 +1,132 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 0
+ {
+  PanelWidgetClass background {
+   ignorepointer 1
+   color 0 0 0 0.1961
+   size 1 1
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   style rover_sim_colorable
+   {
+    ImageWidgetClass menuBar {
+     ignorepointer 1
+     color 0.1961 0.1961 0.1961 1
+     position 0.0011 0
+     size 1 0.05
+     halign center_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     mode blend
+     {
+      GridSpacerWidgetClass gridEnergyBattery {
+       ignorepointer 1
+       position 0 0
+       size 0.1 1
+       halign right_ref
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       "Size To Content H" 1
+       Columns 2
+       Rows 1
+       {
+        ImageWidgetClass imgBattery {
+         ignorepointer 1
+         size 0.379 1.414
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         imageTexture "{39E8734AE8730203}Basecameras/datasets/images/battery-status.edds"
+         mode blend
+         "src alpha" 1
+         "no wrap" 0
+         stretch 1
+        }
+        TextWidgetClass textBatteryPerCent {
+         ignorepointer 1
+         position 0 0
+         size 0.453 1
+         halign center_ref
+         valign center_ref
+         hexactpos 0
+         vexactpos 0
+         hexactsize 0
+         vexactsize 0
+         text "100%"
+         font "gui/fonts/etelkatextpro28"
+         "exact text" 1
+         "text halign" center
+         "text valign" center
+        }
+       }
+      }
+      XComboBoxWidgetClass comboSwitchCamera {
+       position 0 0
+       size 0.303 1
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       items "No Camera"
+      }
+     }
+    }
+    PanelWidgetClass noBatteryPanel {
+     visible 0
+     ignorepointer 1
+     color 0.1137 0.1137 0.1137 1
+     size 1 0.95
+     halign center_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+     {
+      ImageWidgetClass noBattery {
+       ignorepointer 1
+       position 0 0.02
+       size 0.14 0.23
+       halign center_ref
+       valign center_ref
+       hexactpos 0
+       vexactpos 0
+       hexactsize 0
+       vexactsize 0
+       imageTexture "{C9DA930F11C12CA5}Basecameras/datasets/images/no-battery.edds"
+       mode blend
+       "src alpha" 1
+       stretch 1
+      }
+     }
+    }
+   }
+  }
+  TextWidgetClass thedmitriCredit {
+   ignorepointer 1
+   size 0.043 0.071
+   halign right_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+  }
+ }
+}

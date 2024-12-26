@@ -1,0 +1,1 @@
+class Utopia_CCTV : BaseCamera{};

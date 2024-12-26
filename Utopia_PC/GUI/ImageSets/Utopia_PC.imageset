@@ -1,0 +1,122 @@
+ImageSetClass {
+ Name "Utopia_PC"
+ RefSize 3096 3096
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "{608B10D03A6BDF57}Utopia_PC/GUI/ImageSets/Utopia_PC.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass GPU {
+   Name "GPU"
+   Pos 29 46
+   Size 300 300
+   Flags 0
+  }
+  ImageSetDefClass USB {
+   Name "USB"
+   Pos 727 44
+   Size 300 300
+   Flags 0
+  }
+  ImageSetDefClass Keyboard {
+   Name "Keyboard"
+   Pos 2334 773
+   Size 350 350
+   Flags 0
+  }
+  ImageSetDefClass Mouse {
+   Name "Mouse"
+   Pos 2222 1182
+   Size 300 300
+   Flags 0
+  }
+  ImageSetDefClass Filament {
+   Name "Filament"
+   Pos 1383 1633
+   Size 320 320
+   Flags 0
+  }
+  ImageSetDefClass Printer {
+   Name "Printer"
+   Pos 2079 2039
+   Size 410 410
+   Flags 0
+  }
+  ImageSetDefClass Monitor {
+   Name "Monitor"
+   Pos 27 1176
+   Size 380 380
+   Flags 0
+  }
+  ImageSetDefClass SSD {
+   Name "SSD"
+   Pos 1637 405
+   Size 320 320
+   Flags 0
+  }
+  ImageSetDefClass Fan {
+   Name "Fan"
+   Pos 1993 26
+   Size 300 300
+   Flags 0
+  }
+  ImageSetDefClass Cooler {
+   Name "Cooler"
+   Pos 1566 13
+   Size 300 300
+   Flags 0
+  }
+  ImageSetDefClass Wi_Fi {
+   Name "Wi_Fi"
+   Pos 1164 1224
+   Size 300 300
+   Flags 0
+  }
+  ImageSetDefClass Mother_Board {
+   Name "Mother_Board"
+   Pos 1261 763
+   Size 400 400
+   Flags 0
+  }
+  ImageSetDefClass Hot_End {
+   Name "Hot_End"
+   Pos 418 1619
+   Size 370 370
+   Flags 0
+  }
+  ImageSetDefClass Hard_Drive {
+   Name "Hard_Drive"
+   Pos 23 807
+   Size 340 340
+   Flags 0
+  }
+  ImageSetDefClass PSU {
+   Name "PSU"
+   Pos 367 42
+   Size 300 300
+   Flags 0
+  }
+  ImageSetDefClass Filament_Holder {
+   Name "Filament_Holder"
+   Pos 2456 19
+   Size 350 350
+   Flags 0
+  }
+  ImageSetDefClass Kingston {
+   Name "Kingston"
+   Pos 2038 367
+   Size 370 370
+   Flags 0
+  }
+  ImageSetDefClass Ram {
+   Name "Ram"
+   Pos 1143 2135
+   Size 400 400
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}
